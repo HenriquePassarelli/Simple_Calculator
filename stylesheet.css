@@ -1,0 +1,121 @@
+*
+{
+    font-family: 'Poppins', sans-serif;
+    padding: 0 ;
+    margin: 0;
+}
+
+*:focus
+{
+    outline: none;
+}
+
+body
+{
+    text-align: center;
+    background-color: rgb(167, 253, 224);
+}
+
+h2
+{
+    margin-top: 3rem;
+    text-align: center;
+
+}
+
+#container
+{    
+    text-align: center;
+}
+
+#result
+{
+    width: 12.2rem;
+    padding: .7rem;
+    height: 1.6rem;
+    border-radius: .3rem;
+    border-style: none;
+
+    background-color:rgb(235, 235, 235);
+
+}
+
+#submit
+{
+    background-color: orangered;
+}
+
+#submit:hover
+{
+    background-color: rgb(235, 78, 21);
+}
+
+.button 
+{
+    width:4.37rem;
+    padding: 1rem 2rem;
+
+    background-color:rgb(235, 235, 235);
+
+    border-style: none;
+
+    border-radius: .3rem;
+    margin-bottom: .2rem;
+}
+
+.button:hover 
+{
+    background-color: rgb(148, 143, 143);
+}
+
+.dark
+{
+    display: inline-block;
+    margin-top: .3rem;
+    border-style: none;
+    border-radius: .3rem;
+    padding: .4rem;
+}
+
+.dark:hover
+{
+    background-color:black;
+    color:whitesmoke;
+}
+
+/* Dark-theme */
+
+.color.active
+{
+    background-color:#07080B ; 
+    color: whitesmoke;   
+
+}
+
+.color.active input
+{
+    background-color:rgb(27, 27, 27);
+    color: whitesmoke;   
+
+}
+
+.color.active input:hover
+{
+    background-color: rgb(148, 143, 143);
+
+}
+
+.color.active #result
+{
+    color: black;
+}
+
+.color.active input.dark:hover
+{
+    background-color:whitesmoke;
+    color: black;
+}
+
+
+
+

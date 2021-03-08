@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500&display=swap" rel="stylesheet">
+
+    <title>Calculator</title>
+</head>
+<body class="color"></body>
+    <header><h2>Calculator</h2></header>
+    <div id="container">
+        <div>
+            <input type="text" id="result" placeholder="result" disabled>
+            <input type="button" class="button" id="submit" value="C" onclick="clearScreen()">
+        </div>
+    
+        <div>
+            <input type="button" value= "1" class="button" onclick="Numb(this.value)">
+            <input type="button" value="2" class="button" onclick="Numb(this.value)">
+            <input type="button" value="3" class="button" onclick="Numb(this.value)">
+            <input type="button" value="+" class="button" onclick="Numb(this.value)">
+        </div>
+    
+        <div>
+            <input type="button" value="4" class="button" onclick="Numb(this.value)">
+            <input type="button" value="5" class="button" onclick="Numb(this.value)">
+            <input type="button" value="6" class="button" onclick="Numb(this.value)">
+            <input type="button" value="-" class="button" onclick="Numb(this.value)">
+        </div>
+    
+        <div>
+            <input type="button" value="7" class="button" onclick="Numb(this.value)">
+            <input type="button" value="8" class="button" onclick="Numb(this.value)">
+            <input type="button" value="9" class="button" onclick="Numb(this.value)">
+            <input type="button" value="*" class="button" onclick="Numb(this.value)">
+        </div>
+        <div>
+            <input type="button" value="/" class="button" onclick="Numb(this.value)">
+            <input type="button" value="0" class="button" onclick="Numb(this.value)">
+            <input type="button" value="." class="button" onclick="Numb(this.value)">
+            <input type="button" value="=" class="button" onclick="Numb(this.value)">
+        </div>
+    
+        <div>
+            <input type="button" value="Dark Mode" class="dark" onclick="Color.Theme()" >
+        </div>
+    </div>
+    
+    <script src="./scripts.js"></script>
+        
+</body>
+</html>
